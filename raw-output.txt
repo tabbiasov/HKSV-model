@@ -1,7 +1,7 @@
-dyn-160-39-194-153:baseline tabbiasov$ ifort -c -O3 -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 -qopenmp nrtype.f90 nr.f90 nrutil.f90 locate.f90 tridag.f90
-dyn-160-39-194-153:baseline tabbiasov$ ifort -c -O3 -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 -qopenmp code.f90
-dyn-160-39-194-153:baseline tabbiasov$ ifort -O3 -qopenmp -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 nrtype.o nr.o nrutil.o locate.o tridag.o code.o 
-dyn-160-39-194-153:baseline tabbiasov$ ./a.out
+tabbiasov$ ifort -c -O3 -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 -qopenmp nrtype.f90 nr.f90 nrutil.f90 locate.f90 tridag.f90
+tabbiasov$ ifort -c -O3 -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 -qopenmp code.f90
+tabbiasov$ ifort -O3 -qopenmp -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 nrtype.o nr.o nrutil.o locate.o tridag.o code.o 
+tabbiasov$ ./a.out
  -0.112068014576607       0.112068014576607     
  numiter   1.00000000000000     
   0.879299998283386       7.366000115871429E-002  0.916100025177002     
@@ -334,10 +334,10 @@ dyn-160-39-194-153:baseline tabbiasov$ ./a.out
  CE overall young   1.00040002861023     
  CE overall middle   1.00120002861023     
  CE overall old   1.00160002861023     
-dyn-160-39-194-153:baseline tabbiasov$ ifort -c -O3 -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 -qopenmp nrtype.f90 nr.f90 nrutil.f90 locate.f90 tridag.f90
-dyn-160-39-194-153:baseline tabbiasov$ ifort -c -O3 -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 -qopenmp code.f90
-dyn-160-39-194-153:baseline tabbiasov$ ifort -O3 -qopenmp -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 nrtype.o nr.o nrutil.o locate.o tridag.o code.o 
-dyn-160-39-194-153:baseline tabbiasov$ ./a.out
+tabbiasov$ ifort -c -O3 -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 -qopenmp nrtype.f90 nr.f90 nrutil.f90 locate.f90 tridag.f90
+tabbiasov$ ifort -c -O3 -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 -qopenmp code.f90
+tabbiasov$ ifort -O3 -qopenmp -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 nrtype.o nr.o nrutil.o locate.o tridag.o code.o 
+tabbiasov$ ./a.out
  -0.112068014576607       0.112068014576607     
  numiter   1.00000000000000     
   0.879299998283386       7.366000115871429E-002  0.916100025177002     
@@ -670,10 +670,10 @@ dyn-160-39-194-153:baseline tabbiasov$ ./a.out
  CE overall young  0.999000028610230     
  CE overall middle   1.00100002861023     
  CE overall old   1.00340002861023     
-dyn-160-39-194-153:baseline tabbiasov$ ifort -c -O3 -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 -qopenmp nrtype.f90 nr.f90 nrutil.f90 locate.f90 tridag.f90
-dyn-160-39-194-153:baseline tabbiasov$ ifort -c -O3 -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 -qopenmp code.f90
-dyn-160-39-194-153:baseline tabbiasov$ ifort -O3 -qopenmp -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 nrtype.o nr.o nrutil.o locate.o tridag.o code.o 
-dyn-160-39-194-153:baseline tabbiasov$ ./a.out
+tabbiasov$ ifort -c -O3 -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 -qopenmp nrtype.f90 nr.f90 nrutil.f90 locate.f90 tridag.f90
+tabbiasov$ ifort -c -O3 -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 -qopenmp code.f90
+tabbiasov$ ifort -O3 -qopenmp -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 nrtype.o nr.o nrutil.o locate.o tridag.o code.o 
+tabbiasov$ ./a.out
  -0.112068014576607       0.112068014576607     
  numiter   1.00000000000000     
   0.879299998283386       7.366000115871429E-002  0.916100025177002     
@@ -1006,10 +1006,10 @@ dyn-160-39-194-153:baseline tabbiasov$ ./a.out
  CE overall young  0.998400028610229     
  CE overall middle   1.00000002861023     
  CE overall old   1.00200002861023     
-dyn-160-39-194-153:baseline tabbiasov$ ifort -c -O3 -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 -qopenmp nrtype.f90 nr.f90 nrutil.f90 locate.f90 tridag.f90
-dyn-160-39-194-153:baseline tabbiasov$ ifort -c -O3 -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 -qopenmp code.f90
-dyn-160-39-194-153:baseline tabbiasov$ ifort -O3 -qopenmp -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 nrtype.o nr.o nrutil.o locate.o tridag.o code.o 
-dyn-160-39-194-153:baseline tabbiasov$ ./a.out
+tabbiasov$ ifort -c -O3 -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 -qopenmp nrtype.f90 nr.f90 nrutil.f90 locate.f90 tridag.f90
+tabbiasov$ ifort -c -O3 -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 -qopenmp code.f90
+tabbiasov$ ifort -O3 -qopenmp -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 nrtype.o nr.o nrutil.o locate.o tridag.o code.o 
+tabbiasov$ ./a.out
  -0.112068014576607       0.112068014576607     
  numiter   1.00000000000000     
   0.879299998283386       7.366000115871429E-002  0.916100025177002     
@@ -1342,10 +1342,10 @@ dyn-160-39-194-153:baseline tabbiasov$ ./a.out
  CE overall young   1.00060002861023     
  CE overall middle   1.00040002861023     
  CE overall old   1.00100002861023     
-dyn-160-39-194-153:baseline tabbiasov$ ifort -c -O3 -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 -qopenmp nrtype.f90 nr.f90 nrutil.f90 locate.f90 tridag.f90
-dyn-160-39-194-153:baseline tabbiasov$ ifort -c -O3 -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 -qopenmp code.f90
-dyn-160-39-194-153:baseline tabbiasov$ ifort -O3 -qopenmp -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 nrtype.o nr.o nrutil.o locate.o tridag.o code.o 
-dyn-160-39-194-153:baseline tabbiasov$ ./a.out
+tabbiasov$ ifort -c -O3 -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 -qopenmp nrtype.f90 nr.f90 nrutil.f90 locate.f90 tridag.f90
+tabbiasov$ ifort -c -O3 -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 -qopenmp code.f90
+tabbiasov$ ifort -O3 -qopenmp -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 nrtype.o nr.o nrutil.o locate.o tridag.o code.o 
+tabbiasov$ ./a.out
  -0.112068014576607       0.112068014576607     
  numiter   1.00000000000000     
   0.879299998283386       7.366000115871429E-002  0.916100025177002     
@@ -1678,10 +1678,10 @@ dyn-160-39-194-153:baseline tabbiasov$ ./a.out
  CE overall young  0.999200028610229     
  CE overall middle   1.00020002861023     
  CE overall old   1.00280002861023     
-dyn-160-39-194-153:baseline tabbiasov$ ifort -c -O3 -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 -qopenmp nrtype.f90 nr.f90 nrutil.f90 locate.f90 tridag.f90
-dyn-160-39-194-153:baseline tabbiasov$ ifort -c -O3 -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 -qopenmp code.f90
-dyn-160-39-194-153:baseline tabbiasov$ ifort -O3 -qopenmp -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 nrtype.o nr.o nrutil.o locate.o tridag.o code.o 
-dyn-160-39-194-153:baseline tabbiasov$ ./a.out
+tabbiasov$ ifort -c -O3 -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 -qopenmp nrtype.f90 nr.f90 nrutil.f90 locate.f90 tridag.f90
+tabbiasov$ ifort -c -O3 -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 -qopenmp code.f90
+tabbiasov$ ifort -O3 -qopenmp -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 nrtype.o nr.o nrutil.o locate.o tridag.o code.o 
+tabbiasov$ ./a.out
  -0.112068014576607       0.112068014576607     
  numiter   1.00000000000000     
   0.879299998283386       7.366000115871429E-002  0.916100025177002     
@@ -2014,10 +2014,10 @@ dyn-160-39-194-153:baseline tabbiasov$ ./a.out
  CE overall young  0.999000028610230     
  CE overall middle  0.999400028610229     
  CE overall old   1.00260002861023     
-dyn-160-39-194-153:baseline tabbiasov$ ifort -c -O3 -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 -qopenmp nrtype.f90 nr.f90 nrutil.f90 locate.f90 tridag.f90
-dyn-160-39-194-153:baseline tabbiasov$ ifort -c -O3 -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 -qopenmp code.f90
-dyn-160-39-194-153:baseline tabbiasov$ ifort -O3 -qopenmp -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 nrtype.o nr.o nrutil.o locate.o tridag.o code.o 
-dyn-160-39-194-153:baseline tabbiasov$ ./a.out
+tabbiasov$ ifort -c -O3 -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 -qopenmp nrtype.f90 nr.f90 nrutil.f90 locate.f90 tridag.f90
+tabbiasov$ ifort -c -O3 -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 -qopenmp code.f90
+tabbiasov$ ifort -O3 -qopenmp -Wl,-stack_size,0x40000000,-stack_addr,0xf0000000 nrtype.o nr.o nrutil.o locate.o tridag.o code.o 
+tabbiasov$ ./a.out
  -0.112068014576607       0.112068014576607     
  numiter   1.00000000000000     
   0.879299998283386       7.366000115871429E-002  0.916100025177002     
